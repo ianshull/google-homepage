@@ -51,8 +51,35 @@ li{
     right:10px;
 }
 
-button{
-    margin-left:auto;
-    margin-right:auto;
+.lucky{
+    display:flex;
+    /*align-items: center;*/
+    justify-content: center;
+    padding:30px;
    
+}
+
+.center{
+    position:fixed;
+    left:45%;
+}
+
+.footer{
+    text-decoration:none;
+    color:gray;
+    font-family:arial,sans-serif;
+}
+
+.footer:hover{
+    text-decoration:underline;
+}
+
+.nav-bar{
+    text-decoration: none;
+    color:gray;
+
+}
+
+.nav-bar:hover{
+    text-decoration:underline;
 }
